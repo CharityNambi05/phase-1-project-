@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "London",
+        "Berlin"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": "2",
+      "text": "What is 2 + 2?",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "3",
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "4",
+      "text": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "5",
+      "text": "Who wrote 'To Kill a Mockingbird'?",
+      "options": [
+        "Harper Lee",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quiz Management</h1>
+    </header>
+    
+    <main>
+        <section id="question-form">
+            <h2>Create or Update Question</h2>
+            <form id="quiz-form">
+                <input type="hidden" id="question-id" value="">
+                <label for="question-text">Question:</label>
+                <input type="text" id="question-text" required>
+                <label for="answer-options">Answer Options (comma separated):</label>
+                <input type="text" id="answer-options" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section id="questions-list">
+            <h2>Existing Questions</h2>
+            <ul id="questions">
+                <!-- Questions will be dynamically added here -->
+            </ul>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Take Quiz</h2>
+            <div id="quiz-question">
+                <!-- Quiz question will be dynamically added here -->
+            </div>
+            <form id="answer-form">
+                <div id="quiz-options">
+                    <!-- Answer options will be dynamically added here -->
+                </div>
+                <button type="submit">Submit Answer</button>
+            </form>
+            <div id="quiz-result">
+                <!-- Result of the answer will be shown here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Quiz Website. By Charity Nambi.</p>
+    </footer>
+</body>
+</html>
